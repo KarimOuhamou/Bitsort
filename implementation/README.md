@@ -52,9 +52,11 @@ This allows **all frequencies to be stored in a single array**, reducing memory 
 
 Bitmask array (with 3-bit precision):
 
+```
 Index 0 → values 0..9 packed in one int
 Index 1 → values 10..19 packed in one int
 Index 2 → values 20..29 packed in one int
+```
 ...
 
 
