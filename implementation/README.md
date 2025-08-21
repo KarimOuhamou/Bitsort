@@ -84,12 +84,15 @@ During reconstruction, each packed frequency is read and expanded back into the 
 ```bash
 g++ -O2 ./Bitsort.cc ./SortingLibrary.cc -o ./Bitsort.out
 ```
-
 ## Usage
 
-./Bitsort.out        # Run the main Bitsort algorithm
-./Bitsort.out -o     # Run an alternative sorting algorithm for comparison
-./Bitsort.out -v     # Enable verbose mode (memory accesses, execution time)
+Run the compiled program with the following options:
+
+```bash
+./Bitsort.out          # Run the main Bitsort algorithm
+./Bitsort.out -o       # Run the alternative sorting algorithm for comparison
+./Bitsort.out -v       # Enable verbose mode (memory accesses, execution time)
+```
 
 Note: The program requires a file named data.txt in the same directory.
 Each line of data.txt should contain a dataset of integers.
