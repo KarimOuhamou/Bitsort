@@ -102,3 +102,10 @@ For each dataset, the program reports:
 - The number of memory accesses
 - The execution time
 
+## Objective
+
+The main goal of Bitsort is to implement a sorting algorithm that minimizes memory accesses, which can be a major bottleneck in modern CPUs and large-scale data processing.
+This makes it suitable for:
+- Cache-sensitive workloads
+- Performance-critical applications
+- Embedded systems with limited memory
